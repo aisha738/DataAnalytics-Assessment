@@ -1,5 +1,7 @@
 <center>
+  
   ### SQL Query Explanation & Workflow Challenges
+  
 </center>
 
 - **IDE:** MySQL Workbench  
@@ -51,6 +53,6 @@ Finally, I ordered the customers by CLV in descending order to get the highest v
 - Customers with a single transaction caused active_months to be zero, skewing averages.
 - Resolved with GREATEST(..., 1) to ensure at least one month divisor.
 2. While writing and running my SQL queries, I encountered syntax and logical errors from time to time.
-- I resolved this by revisiting mySQL documentation and relevant documents online.
+- I resolved this by revisiting MySQL documentation and relevant documents online.
 
   
