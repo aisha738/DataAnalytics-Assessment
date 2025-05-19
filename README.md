@@ -48,7 +48,7 @@ I then calculated:
 - CLV = (total_transactions / tenure_months) * 12 * (avg_transaction_value * profit_rate)
 Finally, I ordered the customers by CLV in descending order to get the highest value clients
 
-#### Challenges & Resolution
+#### Challenges & Resolutions
 1. Division by Zero in Question 2—Frequency Analysis:
 - Customers with a single transaction caused active_months to be zero, skewing averages.
 - Resolved with GREATEST(..., 1) to ensure at least one month divisor.
